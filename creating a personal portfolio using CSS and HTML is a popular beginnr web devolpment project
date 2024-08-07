@@ -1,0 +1,112 @@
+HTML CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Muvvala.lakshmi Prasanna</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>i have been studing in parul university second year
+        i completed my sepecial courses in c language and wedsite designing 
+        </p>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>good at c pprogramming and website designing</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>wed devploments,cyber security projects</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>9440192452
+        <br>
+        muvvalalakshmiprasanna91@gmail.com</p>
+    </section>
+    <section id="resume">
+        <h2>My resume</h2>
+        <img
+        src="https://drive.google.com/file/d/1p2CI8IK9bVtIcPnPkgaWPAy8D211kBID/view?usp=drivesdk"/>
+    </section>
+    <footer>
+        <p>&copy; 2024 m.lakshmi prasanna</p>
+    </footer>
+</body>
+</html>
+
+
+  CSS CODE:
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
